@@ -7,9 +7,12 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 import java.util.Scanner;
+
 public class Main
 {
 	public static void main(String[] args) {
+		Ventana ventana = new Ventana();
+		ventana.setVisible(true);
 	    Scanner scanner = new Scanner(System.in);
 	    Cliente nuevoCliente = new Cliente();
 	    int opciones;

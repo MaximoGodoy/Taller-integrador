@@ -56,5 +56,8 @@ public class Juegos{
     public boolean getVerificadorEdad(){
         return verificadorEdad;
     }
+    public void ejecutarJuego(){
+        System.out.println("Se está ejecutando " + this.nombre);
+    }
 }
 
